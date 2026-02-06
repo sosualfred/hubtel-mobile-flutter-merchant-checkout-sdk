@@ -8,20 +8,28 @@ a checkout flow in your Flutter application.
 
 ## Installation
 
-The `Hubtel Merchant Checkout` package is available on GitHub for Flutter apps to integrate with their apps. It'll be available
-on [pub.dev](https://pub.dev) soon.
+Run this command:
 
-### github.com
+With Dart:
 
-1. Open your `pubspec.yaml` file.
-2. Add the following lines to your dependencies section:
+```bash
+$ dart pub add hubtel_merchant_checkout_sdk
+```
+
+With Flutter:
+
+```bash
+$ flutter pub add hubtel_merchant_checkout_sdk
+```
+
+This will add a line like this to your package's pubspec.yaml (and run an implicit `dart pub get`):
 
 ```yaml
-hubtel_merchant_checkout_sdk:
-  git:
-    url: https://github.com/hubtel/hubtel-mobile-flutter-merchant-checkout-sdk.git
-    ref: master
+dependencies:
+  hubtel_merchant_checkout_sdk: ^0.0.1
 ```
+
+Alternatively, your editor might support `dart pub get` or `flutter pub get`. Check the docs for your editor to learn more.
 
 ## Getting Started
 
