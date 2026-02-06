@@ -1,5 +1,8 @@
 # Hubtel Merchant Checkout SDK - Flutter
 
+> [!NOTE]
+> This is a fork from [https://github.com/hubtel/hubtel-mobile-flutter-merchant-checkout-sdk.git](https://github.com/hubtel/hubtel-mobile-flutter-merchant-checkout-sdk.git) to fix build not working on android.
+
 The Hubtel Flutter Checkout Package is a convenient and easy-to-use library that simplifies the process of implementing
 a checkout flow in your Flutter application.
 
@@ -14,10 +17,10 @@ on [pub.dev](https://pub.dev) soon.
 2. Add the following lines to your dependencies section:
 
 ```yaml
-  hubtel_merchant_checkout_sdk:
-    git:
-      url: https://github.com/hubtel/hubtel-mobile-flutter-merchant-checkout-sdk.git
-      ref: master
+hubtel_merchant_checkout_sdk:
+  git:
+    url: https://github.com/hubtel/hubtel-mobile-flutter-merchant-checkout-sdk.git
+    ref: master
 ```
 
 ## Getting Started
@@ -39,9 +42,11 @@ _Objects needed_
 
 1. Add the package to your app as described above.
 2. Import the package in the screen you want to implement the checkout like so:
+
 ```dart
 import 'package:hubtel_merchant_checkout_sdk/hubtel_merchant_checkout_sdk.dart';
 ```
+
 3. Create a `HubtelCheckoutConfiguration` object, like so:
 
 ```dart
@@ -106,4 +111,5 @@ The `UnifiedCheckoutPaymentStatus` is an enum displaying the status of payment. 
 - `pending`: when the user performs a bank pay transaction and receipt is successfully downloaded.
 
 ## Screenshots
+
 ![Fig. 01](https://firebasestorage.googleapis.com/v0/b/newagent-b6906.appspot.com/o/hubtel-mobile-checkout-ios-sdk-image.png?alt=media&token=376d90ab-c416-42a0-8b99-69028378ff72)
