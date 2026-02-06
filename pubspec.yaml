@@ -1,7 +1,7 @@
 name: hubtel_merchant_checkout_sdk
 description: Flutter SDK for Hubtel Merchant Checkout
 version: 0.0.1
-homepage:
+homepage: "https://github.com/sosualfred/hubtel-mobile-flutter-merchant-checkout-sdk"
 
 environment:
   sdk: ^3.10.8

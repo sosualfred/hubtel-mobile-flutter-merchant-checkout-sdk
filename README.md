@@ -8,7 +8,7 @@ a checkout flow in your Flutter application.
 
 ## Installation
 
-The `Hubtel Merchat Checkout` package is available on GitHub for Flutter apps to integrate with their apps. It'll be available
+The `Hubtel Merchant Checkout` package is available on GitHub for Flutter apps to integrate with their apps. It'll be available
 on [pub.dev](https://pub.dev) soon.
 
 ### github.com
