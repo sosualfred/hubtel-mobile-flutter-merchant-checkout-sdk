@@ -174,15 +174,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.4.1"
-  flutter_html_to_pdf:
-    dependency: transitive
-    description:
-      path: "."
-      ref: HEAD
-      resolved-ref: a5963c627403cd1143229ec9d55115b3ade5f477
-      url: "https://github.com/mohammadhprp/flutter_html_to_pdf2"
-    source: git
-    version: "0.8.2"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -233,6 +224,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
+  html_to_pdf_plus:
+    dependency: transitive
+    description:
+      name: html_to_pdf_plus
+      sha256: d71185bbf11a3f0893d248a572cd0c677459d80f25caa72edb81c692dedd0ac5
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.7"
   http:
     dependency: transitive
     description:
